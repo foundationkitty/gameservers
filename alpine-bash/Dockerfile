@@ -1,4 +1,4 @@
 FROM alpine
 
 RUN \
-/bin/sh -c /sbin/apk add bash
+/sbin/apk add bash
