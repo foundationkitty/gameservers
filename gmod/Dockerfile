@@ -1,4 +1,4 @@
-FROM foundationkitty/gameservers:mono-complete
+FROM debian
 
 RUN \
 apt-get update && \
