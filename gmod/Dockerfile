@@ -11,7 +11,7 @@ curl -s http://media.steampowered.com/installer/steamcmd_linux.tar.gz | tar -vxz
 useradd -m gmod
 
 CMD \
-/steamcmd/steamcmd +login anonymous +force_install_dir /gmod +app_update 4020 validate +quit && /bin/sh -c '/gmod/srcds_run -game garrysmod +maxplayers 32 +map gm_flatgrass -port 27001'
+/steamcmd/steamcmd.sh +login anonymous +force_install_dir /gmod +app_update 4020 validate +quit && /bin/sh -c '/gmod/srcds_run -game garrysmod +maxplayers 32 +map gm_flatgrass -port 27001'
 
 WORKDIR /gmod
 
