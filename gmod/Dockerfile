@@ -3,7 +3,7 @@ FROM debian
 RUN \
 apt-get update && \
 apt-get dist-upgrade -y && \
-apt-get install -y curl lib32gcc1 && \
+apt-get install -y curl lib32gcc1 lib32stdc++6 && \
 mkdir /steamcmd && \
 mkdir /gmod && \
 cd /steamcmd && \
