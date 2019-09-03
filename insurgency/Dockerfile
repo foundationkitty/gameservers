@@ -5,7 +5,7 @@ apt-get update && \
 apt-get dist-upgrade -y && \
 apt-get install -y curl lib32gcc1 lib32stdc++6 && \
 mkdir /steamcmd && \
-mkdir /gmod && \
+mkdir /insurgency && \
 cd /steamcmd && \
 curl -s http://media.steampowered.com/installer/steamcmd_linux.tar.gz | tar -vxz && \
 useradd -m gmod
