@@ -3,7 +3,7 @@ FROM foundationkitty/gameservers:mono-complete
 RUN \
 apt-get update && \
 apt-get dist-upgrade -y && \
-apt-get install -y curl lib32gcc1 xdg-utils && \
+apt-get install -y curl lib32stdc++6 xdg-utils && \
 mkdir /steamcmd && \
 mkdir /smod && \
 cd /steamcmd && \
