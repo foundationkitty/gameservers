@@ -3,7 +3,6 @@ FROM mono:slim
 RUN apt update && \
 apt dist-upgrade -y && \
 apt install lib32gcc1 -y --no-install-reccomends && \
-
 apt autoremove -y && \
 apt autoclean -y && \
 rm -rf /var/lib/apt/lists/*
