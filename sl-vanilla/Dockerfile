@@ -9,6 +9,6 @@ apt autoclean -y && \
 rm -rf /var/lib/apt/lists/*
 
 CMD \
-/steamcmd/steamcmd +login anonymous +force_install_dir /vanilla +app_update 996560 validate -beta Linux +quit && /vanilla/LocalAdmin "$SERVER_PORT"
+/steamcmd/steamcmd +login anonymous +force_install_dir /scpsl +app_update 996560 validate -beta Linux +quit && /scpsl/LocalAdmin "$SERVER_PORT"
 
-WORKDIR /vanilla
+WORKDIR /scpsl
